@@ -1,5 +1,13 @@
 # dotnet cheat sheet
 
+- [dotnet cheat sheet](#dotnet-cheat-sheet)
+  - [Adding secrets to project](#adding-secrets-to-project)
+  - [Accessing configuration (for secrets - similar)](#accessing-configuration-for-secrets---similar)
+  - [Mapping configuration to POCO](#mapping-configuration-to-poco)
+  - [Accessing configuration object through Dependency Injection](#accessing-configuration-object-through-dependency-injection)
+  - [Accessing connection string](#accessing-connection-string)
+  - [Testing](#testing)
+
 ## Adding secrets to project
 
 ```shell

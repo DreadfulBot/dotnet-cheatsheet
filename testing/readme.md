@@ -1,5 +1,20 @@
 # Testing
 
+- [Testing](#testing)
+  - [Short story](#short-story)
+  - [.NET Core 5 Times Project structure](#net-core-5-times-project-structure)
+    - [Startup.cs](#startupcs)
+    - [Program.cs](#programcs)
+  - [.NET Core 6 Project structure](#net-core-6-project-structure)
+    - [Typical code of `Program.cs` .NET Core 6+ project](#typical-code-of-programcs-net-core-6-project)
+  - [.NET Core 5 vs 6 structure -  Advantages and disadvantages (+ solving problems)](#net-core-5-vs-6-structure----advantages-and-disadvantages--solving-problems)
+    - [Advantages](#advantages)
+    - [Disadvantages](#disadvantages)
+    - [Solving root assembly name in .NET Core 6](#solving-root-assembly-name-in-net-core-6)
+  - [Configuring .NET Core 5 Test server](#configuring-net-core-5-test-server)
+  - [Configuring .NET Core 6 Test server](#configuring-net-core-6-test-server)
+  - [Testing GraphQL HotChocolate request through Unit tests](#testing-graphql-hotchocolate-request-through-unit-tests)
+
 ## Short story
 
 Let's imagine that you have modern application project made in times of .NET core 6 release. Needless to say, it's structure is a little bit different from older .net versions (where you had 2 separate files - `Startup.cs` and `Program.cs`)
