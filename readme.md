@@ -51,3 +51,7 @@ class Controller {
 ```c#
 Configuration.GetConnectionString("DefaultConnectionString");
 ```
+
+## Testing
+
+Separate document available [here](./testing/readme.md)
